@@ -77,6 +77,10 @@ a {
 	padding: 50px;
 }
 
+.logo img:hover {
+	cursor: pointer;
+}
+
 .sidebar hr {
 	border: 2px solid white;
 	width: 69%;

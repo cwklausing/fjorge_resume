@@ -91,6 +91,7 @@ a {
 	display: none;
 }
 #lightBoxContainer img {
+	background-color: #013d54;
 	position: absolute;
 	width: 33%;
 	top: 25%;

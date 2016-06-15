@@ -1,0 +1,179 @@
+/*CSS Reset*/
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+/*Custom Styling*/
+/*Whole-document styling*/
+body {
+	width: 100%;
+	height: 100%;
+	background: url('./images/bg-chevron-watermark.svg') 0 0 repeat;
+}
+
+.resume-wrapper {
+	width: 1000px;
+	height: 1047px;
+	margin: 0 auto;
+	background: #FFFFFF;
+	font-family: 'Montserrat', sans-serrif;
+	line-height: 1.5em;
+	border: 4px solid black;
+}
+
+.chevron-fill {
+	background-color: blue;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*Containers styling */
+.sidebar {
+	background-color: #013d54;
+	width: 33%;
+	float: left;
+	border-right: 4px solid black;
+}
+
+.container {
+	width: 66%;
+	float: left;
+	height: 1050px;
+	overflow: scroll;
+}
+
+.container p {
+	font-size: 1em;
+}
+
+/*Sidebar styling*/
+.skills {
+	padding: 50px;
+	text-align: right;
+	color: white;
+}
+
+.skills h3 {
+	font-size: 2em;
+	margin-bottom: 45px;
+}
+
+.skills p {
+	font-size: 1.2em;
+}
+
+.logo {
+	height: 330px;
+}
+
+.logo img {
+	display: block;
+	height: 220px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+.sidebar hr {
+	border: 2px solid white;
+	width: 69%;
+}
+
+/*Lightbox styling*/
+#lightBoxContainer {
+	display: none;
+}
+#lightBoxContainer img {
+	position: absolute;
+	width: 33%;
+	top: 25%;
+	left: 33%;
+}
+
+#lightboxBg {
+	background-color: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1050px;
+	opacity: 0.5;
+}
+
+/*Header styling */
+
+header {
+	background-color: white;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 50px;
+	height: 330px;
+}
+
+header h1 {
+	font-size: 3.3em;
+	line-height: 2;
+}
+
+header h2 {
+	font-size: 2.33em;
+	font-weight: 200;
+	margin-bottom: 30px;
+}
+
+header p {
+	font-size: 1.3em;
+	line-height: 2.1;
+}
+
+/*Main styling*/
+main {
+	margin: 0 50px;
+}
+
+main h3 {
+	line-height: 2;
+	margin: 10px 0;
+}
+
+.container hr {
+	border: 2px solid black;
+	margin: 0 50px;
+}
+
+/*Hover styling*/
+.education, .awards, .profile {
+	height: 58px;
+	overflow: hidden;
+	border-bottom: 4px solid black;
+	transition: height 0.5s;
+}
+.education:hover {
+	height: 200px;
+	transition: height 0.5s;
+}
+
+.awards:hover {
+	height: 240px;
+}
+
+.profile:hover {
+	height: 122px;
+}
+
+/*Job containers*/
+.jobwrapper {
+	padding: 0 0 10px 0;
+	list-style-position: inside;
+}
+
+ul ul {
+	margin-left: 20px;
+}
+
+.title {
+	font-weight: 600;
+}
